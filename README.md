@@ -18,8 +18,6 @@ General Relativity (GR) describes gravitation through the curvature of spacetime
   - A charged, non-rotating black hole solution, which introduces electric charge as an additional factor influencing spacetime geometry.
   - This document explores how electric charge affects the structure of black holes and the surrounding spacetime.
 
-### Physical Concepts
-
 These metrics allow us to probe fundamental questions about the nature of black holes, gravitational interaction in extreme conditions, and the theoretical predictions of black hole horizons and singularities.
 
 ## Cosmology
@@ -36,7 +34,6 @@ In the Cosmology section, we apply general relativistic concepts to understand t
   - This file involves analyzing the redshift and luminosity distance data from the SCP Union2.1 supernova compilation to explore dark energy models and the expansion rate of the universe.
   - Techniques like data fitting and statistical analysis are employed to compare theoretical models with observational data, enhancing our understanding of the universe's acceleration.
 
-### Physical Concepts
 
 The cosmological part of this project seeks to understand the dynamics of the universe's expansion, the role of dark energy, and the interplay between theoretical predictions and empirical observations.
 
