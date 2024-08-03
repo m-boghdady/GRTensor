@@ -1,0 +1,172 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Text Output" -1 6 
+1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1 2 1 3 1 }1 1 
+0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 
+0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "exit:restart;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "grtw():" }}{PARA 6 "" 1 "" 
+{TEXT -1 25 "Scalar invariant library." }}{PARA 6 "" 1 "" {TEXT -1 28 
+"Last modified 25 March 1997." }}{PARA 6 "" 1 "" {TEXT -1 25 "`Differe
+ntial Invariants`" }}{PARA 6 "" 1 "" {TEXT -1 29 "`Last modified Jan. \+
+20, 1995`" }}{PARA 6 "" 1 "" {TEXT -1 41 "`Basis/tetrad related object
+ definitions`" }}{PARA 6 "" 1 "" {TEXT -1 31 "`Last modified 23 Januar
+y 2001`" }}{PARA 6 "" 1 "" {TEXT -1 25 "`Last built 27 May, 1999`" }}
+{PARA 6 "" 1 "" {TEXT -1 25 "`Last built 27 May, 1999`" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#%=GRTensorII~Version~1.79~(R4)G" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#%06~February~2001G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#%ZDeveloped~by~Peter~Musgrave,~Denis~Pollney~and~Kayll~LakeG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%DCopyright~1994-2001~by~the~authors.G
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%inLatest~version~available~from:~
+http://grtensor.phy.queensu.ca/G" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+64 "Upload the FLRW metric (homogeneous isotropic space-- flat case)" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "qload(FLRW):" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#/%2Default~spacetimeG%%FLRWG" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#%8For~the~FLRW~spacetime:G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%,CoordinatesG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%\"x
+G6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%#x~G%\"aGK%'vectorG6#7&
+%\"tG%\"rG%&thetaG%$phiGQ(pprint06\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#%-Line~elementG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*$)%$~dsG\"\"#\"
+\"\",**&%#~dGF()%\"tG%#2~GF(!\"\"*()-%\"aG6#F-F'F(F+F()%\"rGF.F(F(**F1
+F()F6F'F(F+F()%&thetaGF.F(F(*,F1F(F8F()-%$sinG6#F:F'F(F+F()%$phiGF.F(F
+(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 22 "Define Einstein Tensor" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "grdef(`En\{a b\}:=R\{a b\}-R
+icciscalar*g\{a b\}/2`);" }}{PARA 6 "" 1 "" {TEXT -1 32 "Created defin
+ition for En(dn,dn)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "grca
+lcd(En(dn,up));" }}{PARA 6 "" 1 "" {TEXT -1 33 "Created definition for
+ En(dn,up) " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"\"!F&" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#%8For~the~FLRW~spacetime:G" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%*En(dn,up)G" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#-%#EnG6$%#dnG%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)&%#EnG6#
+%\"aG%\"bGK%'matrixG6#7&7&,$*(\"\"$\"\"\"-F(6#%\"tG!\"#-%%diffG6$F3F5
+\"\"#!\"\"\"\"!F<F<7&F<,$*&,&*(F:F2F3F2-F86$F3-%\"$G6$F5F:F2F2*$)F7F:F
+2F2F2F3F6F;F<F<7&F<F<F>F<7&F<F<F<F>Q(pprint06\"" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 57 "4-velocity vector of the fluid at rest wrt comoving \+
+frame" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 64 "grdef(`U\{ i \} :=
+ kdelta\{ i $t\}`);grcalc(U(up));grdisplay(U(up));" }}{PARA 6 "" 1 "" 
+{TEXT -1 28 "Created definition for U(dn)" }}{PARA 6 "" 1 "" {TEXT -1 
+29 "Created definition for U(up) " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/
+%*CPU~Time~G$\"\"!F&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%8For~the~FLRW
+~spacetime:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&U(up)G" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#-%\"UG6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#/)%\"UG%\"aGK%'vectorG6#7&!\"\"\"\"!F,F,Q(pprint06\"" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 33 "stress-energy tensor of the fluid" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 105 "grdef(`T\{^m ^n\}:=rho(t)*U
+\{^m\}*U\{^n\}+P(t)*(U\{^m\}*U\{^n\}+g\{^m ^n\})`);\ngrcalc(T(dn,up));
+\ngrdisplay(T(dn,up));" }}{PARA 6 "" 1 "" {TEXT -1 31 "Created definit
+ion for T(up,up)" }}{PARA 6 "" 1 "" {TEXT -1 32 "Created definition fo
+r T(dn,up) " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"\"!F&" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#%8For~the~FLRW~spacetime:G" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%)T(dn,up)G" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#-%\"TG6$%#dnG%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)&%\"TG6#%\"
+aG%\"bGK%'matrixG6#7&7&,$-%$rhoG6#%\"tG!\"\"\"\"!F5F57&F5-%\"PGF2F5F57
+&F5F5F7F57&F5F5F5F7Q(pprint06\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+34 "General Relativity Field Equations" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 43 "grdef(`FEQ\{a ^b\}:=En\{a ^b\}=kappa*T\{a ^b\}`);" }}
+{PARA 6 "" 1 "" {TEXT -1 37 "Created definition for lhs_FEQ(dn,up)" }}
+{PARA 6 "" 1 "" {TEXT -1 37 "Created definition for rhs_FEQ(dn,up)" }}
+{PARA 6 "" 1 "" {TEXT -1 33 "Created definition for FEQ(dn,up)" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "grcalc(FEQ(dn,up));grdisplay
+(FEQ(dn,up));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"\"!F&
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%8For~the~FLRW~spacetime:G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%+FEQ(dn,up)G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%$FEQG6$%#dnG%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+/)&%$FEQG6#%\"aG%\"bGK%'matrixG6#7&7&/,$*(\"\"$\"\"\"-F(6#%\"tG!\"#-%%
+diffG6$F4F6\"\"#!\"\",$*&%&kappaGF3-%$rhoGF5F3F</\"\"!FCFBFB7&FB/,$*&,
+&*(F;F3F4F3-F96$F4-%\"$G6$F6F;F3F3*$)F8F;F3F3F3F4F7F<*&F?F3-%\"PGF5F3F
+BFB7&FBFBFEFB7&FBFBFBFEQ(pprint06\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 19 "Friedmann Equations" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+36 "Friedmann:=greqn2set ( FEQ(dn,up) );" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%*FriedmannG<$/,$*&,&*(\"\"#\"\"\"-%\"aG6#%\"tGF,-%%diffG6$F--%
+\"$G6$F0F+F,F,*$)-F26$F-F0F+F,F,F,F-!\"#!\"\"*&%&kappaGF,-%\"PGF/F,/,$
+*(\"\"$F,F-F;F9F+F<,$*&F>F,-%$rhoGF/F,F<" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 94 "Comment: Two equations in three unknown--> we need extra \+
+constraint--> equation of state (EoS)" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 63 "grcomponent(FEQ(dn,up), [t,t]);\ngrcomponent(FEQ(dn,u
+p), [r,r]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/,$*(\"\"$\"\"\"-%\"aG6
+#%\"tG!\"#-%%diffG6$F(F+\"\"#!\"\",$*&%&kappaGF'-%$rhoGF*F'F1" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/,$*&,&*(\"\"#\"\"\"-%\"aG6#%\"tGF)-%%
+diffG6$F*-%\"$G6$F-F(F)F)*$)-F/6$F*F-F(F)F)F)F*!\"#!\"\"*&%&kappaGF)-%
+\"PGF,F)" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 15 "Bianki Identity" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 49 "grdef(`BId\{^m\}:=En\{^m ^n;
+ n\}`);\ngrcalcd(BId(up));" }}{PARA 6 "" 1 "" {TEXT -1 33 "Created def
+inition for En(up,up) " }}{PARA 6 "" 1 "" {TEXT -1 38 "Created a defin
+ition for En(up,up,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 30 "Created defini
+tion for BId(up)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"\"
+!F&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%8For~the~FLRW~spacetime:G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%(BId(up)G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%$BIdG6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%$B
+IdG%\"aG%8All~components~are~zeroG" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 52 "Continuity Equation (it is not independent equation)" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 50 "grdef(`Cont\{^m\}:=T\{^m ^n;
+ n\}`);\ngrcalcd(Cont(up));" }}{PARA 6 "" 1 "" {TEXT -1 37 "Created a \+
+definition for T(up,up,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 31 "Created de
+finition for Cont(up)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G
+$\"\"!F&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%8For~the~FLRW~spacetime:G
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%)Cont(up)G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%%ContG6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%%
+ContG%\"aGK%'vectorG6#7&*&,(*&-%%diffG6$-%$rhoG6#%\"tGF4\"\"\"-F&F3F5F
+5*(\"\"$F5F1F5-F/6$F6F4F5F5*(F8F5-%\"PGF3F5F9F5F5F5F6!\"\"\"\"!F?F?Q(p
+print06\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 50 "Cont1:=simplif
+y(grcomponent(Cont(up),[t]),size)=0;" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#>%&Cont1G/*&,&*&,&*&\"\"$\"\"\"-%$rhoG6#%\"tGF,F,*&F+F,-%\"PGF/F,F,F
+,-%%diffG6$-%\"aGF/F0F,F,*&-F56$F-F0F,F7F,F,F,F7!\"\"\"\"!" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 27 "Assume an equation of state" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "EoS:=P(t)=w*rho(t);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%$EoSG/-%\"PG6#%\"tG*&%\"wG\"\"\"-%$rhoGF(F," }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 17 "The fluid density" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "dens:=dsolve(subs(EoS,Cont1),rho(t)
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%densG/-%$rhoG6#%\"tG*&)-%\"aG
+F(,&\"\"$!\"\"*&F/\"\"\"%\"wGF2F0F2%$_C1GF2" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 58 "Three cases: CDM (w=0), radiation (w=1/3), deSitter (w=
+-1)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 50 "subs(w=0,dens);\nsub
+s(w=1/3,dens);\nsubs(w=-1,dens);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-
+%$rhoG6#%\"tG*&-%\"aGF&!\"$%$_C1G\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#/-%$rhoG6#%\"tG*&-%\"aGF&!\"%%$_C1G\"\"\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/-%$rhoG6#%\"tG%$_C1G" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 64 "Express the scale factor derivatives in terms of Hubble functio
+n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 62 "sub0:=diff(a(t),t)=sol
+ve(diff(a(t),t)/a(t)=H(t),diff(a(t),t));" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%%sub0G/-%%diffG6$-%\"aG6#%\"tGF,*&-%\"HGF+\"\"\"F)F0" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 50 "sub1:=diff(a(t),t$2)=subs(su
+b0,diff(rhs(sub0),t));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%sub1G/-%%
+diffG6$-%\"aG6#%\"tG-%\"$G6$F,\"\"#,&*&-F'6$-%\"HGF+F,\"\"\"F)F7F7*&)F
+5F0F7F)F7F7" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "Sub:=[sub0,s
+ub1];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$SubG7$/-%%diffG6$-%\"aG6#%
+\"tGF-*&-%\"HGF,\"\"\"F*F1/-F(6$F*-%\"$G6$F-\"\"#,&*&-F(6$F/F-F1F*F1F1
+*&)F/F8F1F*F1F1" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 49 "Friedmann Equa
+tions (in terms of Hubble function)" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 53 "FriedmannH:=simplify(subs(sub0,subs(Sub,Friedmann)));
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%+FriedmannHG<$/,$*&\"\"$\"\"\")-
+%\"HG6#%\"tG\"\"#F*!\"\",$*&%&kappaGF*-%$rhoGF.F*F1/,&*&F0F*-%%diffG6$
+F,F/F*F1*&F)F*F+F*F1*&F4F*-%\"PGF.F*" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 8 "CDM case" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "CDM:=subs
+(w=0,EoS);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$CDMG/-%\"PG6#%\"tG\"
+\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 70 "dsolve(subs(CDM,Frie
+dmann))[1][3];\ndsolve(subs(CDM,FriedmannH))[1][1];" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#/-%\"aG6#%\"tG,$*&\"\"%!\"\",&*(\"#7\"\"\"%$_C1GF/F'F
+/F/*&F.F/%$_C2GF/F/#\"\"#\"\"$F/" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-
+%\"HG6#%\"tG,$*&\"\"#\"\"\",&*&\"\"$F+F'F+F+*&F*F+%$_C1GF+F+!\"\"F+" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 14 "Radiation Case" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 21 "RAD:=subs(w=1/3,EoS);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%$RADG/-%\"PG6#%\"tG,$*&#\"\"\"\"\"$F--%$rhoGF(F-F-
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 70 "dsolve(subs(RAD,Friedma
+nn))[1][1];\ndsolve(subs(RAD,FriedmannH))[1][1];" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/-%\"aG6#%\"tG*$,&*(\"\"#\"\"\"%$_C1GF,F'F,F,*&F+F,%$_C
+2GF,F,#F,F+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%\"HG6#%\"tG*&\"\"\"F
+),&*&\"\"#F)F'F)F)%$_C1GF)!\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+38 "Cosmological constant (de Sitter) case" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 25 "deSitter:=subs(w=-1,EoS);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%)deSitterG/-%\"PG6#%\"tG,$-%$rhoGF(!\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 80 "dsolve(subs(deSitter,Friedmann))[1]
+[1];\ndsolve(subs(deSitter,FriedmannH))[1][1];" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/-%\"aG6#%\"tG*&-%$expG6#*&%$_C1G\"\"\"F'F.F.%$_C2GF." 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%\"HG6#%\"tG%$_C1G" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "44 0 0" 0 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }
