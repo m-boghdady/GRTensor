@@ -1,4 +1,4 @@
-This repository is a documentation for a project that utilizes GRTensor package, a powerful package for performing differential geometry and tensor calculus operations. GRTensor II is particularly tailored for applications in General Relativity and runs on both Maple and Mathematica. This project is split into two main sections: General Relativity, where we explore the mathematical structure of spacetime through various metrics, and Cosmology, where we apply these concepts to model the universe's large-scale dynamics.
+This repository is a documentation for a project that utilizes GRTensor package, a powerful package for performing differential geometry and tensor calculus operations. GRTensor is particularly tailored for applications in General Relativity and runs on both Maple and Mathematica. This project is split into two main sections: General Relativity, where we explore the mathematical structure of spacetime through various metrics, and Cosmology, where we apply these concepts to model the universe's large-scale dynamics.
 
 ## General Relativity
 
